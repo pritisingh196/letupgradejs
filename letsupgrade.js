@@ -1,10 +1,10 @@
-const num = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
-function maxArray(num) {
-    let max = num;
-    for (let i = 1; i < num.length; i++) {
-        if (i > max) {
-            max = num[i];
-        }
-        }return(max);
-}
-    console.log(maxArray(num));
+//Write a JavaScript function called "calculateArea" that takes two parameters: "length" and "width".
+// The function should calculate and return the area of a rectangle using the given length and width.
+function calculateArea(length, width) {
+    return length * width;
+  }
+  const length = 5;
+  const width = 3;
+  const area = calculateArea(length, width);
+  console.log("Area of the rectangle:", area); // Output: Area of the rectangle: 15
+    
